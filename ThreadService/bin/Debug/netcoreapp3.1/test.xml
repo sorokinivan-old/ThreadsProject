@@ -1,0 +1,5 @@
+<root>
+  <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <string>0 ready</string>
+  </ArrayOfString>
+</root>

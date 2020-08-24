@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\nexto\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\nexto\\.nuget\\packages"
+    ]
+  }
+}
