@@ -13,7 +13,6 @@ namespace ThreadService
     {
         static async Task Main(string[] args)
         {
-            XmlDocument xmlDoc = new XmlDocument();
             var client = new HttpClient();
             Console.WriteLine("Введите кол-во потоков");
             var count = Int32.Parse(Console.ReadLine());
