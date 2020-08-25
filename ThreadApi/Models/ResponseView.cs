@@ -6,7 +6,7 @@ using System.Xml.Serialization;
 
 namespace ThreadApi
 {
-    public class ReturnView
+    public class ResponseView
     {
         [XmlAttribute("State")]
         public string State
@@ -20,23 +20,18 @@ namespace ThreadApi
             get;
             set;
         }
-        [XmlAttribute("Time")]
-        public string Time
+        [XmlAttribute("ResponseTime")]
+        public long ResponseTime
+        {
+            get;
+            set;
+        }
+        [XmlAttribute("ProcessingTime")]
+        public long ProcessingTime
         {
             get;
             set;
         }
     }
-    [XmlRoot("Products")]
-    public class ReturnViews
-    {
-        [XmlAttribute("nid")]
-        public string Id
-        {
-            get;
-            set;
-        }
-        [XmlElement(ElementName = "Product")]
-        public List<ReturnView> AllReturnViews { get; set; }
-    }
+    
 }
