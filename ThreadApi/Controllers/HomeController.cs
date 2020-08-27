@@ -16,7 +16,8 @@ namespace ThreadApi.Controllers
     [ApiController]
     public class HomeController : ControllerBase
     {
-       [HttpPost]
+
+        [HttpPost]
         public ResponseView Post([FromBody] RequestView request)
         {
             Stopwatch sw1 = new Stopwatch();
